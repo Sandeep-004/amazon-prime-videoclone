@@ -1,0 +1,22 @@
+
+//Create Account
+
+# POST  http://localhost:3001/userprofile
+# Content-Type: application/json
+
+# {
+#     "name"     : "pradeep verma",
+#     "email"    : "pradeep@mail.com",
+#     "password" : "pradeep",
+#     "cpassword": "pradeep"
+# }
+
+//SignIn 
+
+ POST http://localhost:3001/signin 
+ Content-Type: application/json
+
+ {  
+     "email" : "pradeep@mail.com",
+     "password" : "pradeep"
+ }
