@@ -6,7 +6,7 @@ const cookieParser = require('cookie-parser');
 const cors = require('cors');
 
 app.use(cookieParser());
-app.use(cors())
+app.use(cors());
 
 
 dotenv.config({ path: './.env' });
@@ -22,7 +22,7 @@ const PORT = process.env.PORT || 3001;
 
 //Heroku
 
-if(process.env.Node_ENV == "production") {
+if(process.env.Node_ENV = "production") {
     app.use(express.static("client/build"));
     const path = require("path");
     app.get("*", (req, res) => {
