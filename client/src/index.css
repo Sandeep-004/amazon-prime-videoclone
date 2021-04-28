@@ -338,7 +338,6 @@
   position: relative;
 }
 .navbar-nav {
-  display: block;
   float: right;
   margin-left: 50rem;
   cursor: pointer;
